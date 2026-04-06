@@ -1,0 +1,5 @@
+from .destroy import DESTROY_SYSTEM_PROMPT
+from .reverse import REVERSE_SYSTEM_PROMPT
+from .shadow import SHADOW_SYSTEM_PROMPT
+
+__all__ = ["DESTROY_SYSTEM_PROMPT", "REVERSE_SYSTEM_PROMPT", "SHADOW_SYSTEM_PROMPT"]
